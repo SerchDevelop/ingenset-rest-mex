@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mx.indra.ingenset.mapper.MyBatisDao">
+
+<!--       	
+	<resultMap type="mx.indra.ingenset.bean.Resultados" id="getResultados">
+		<result column="CDGARANT"  property="idConceptoCobertura"/>
+		<result column="CDCONVAL"  property="idConceptoValoracion"/>
+	</resultMap>
+-->
+
+	<select id="getObtenerDatos" parameterType="" resultType="int">
+		SELECT COUNT(*) FROM TEST_FENIX
+	</select>
+		
+</mapper>
